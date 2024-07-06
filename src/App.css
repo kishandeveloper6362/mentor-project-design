@@ -1,0 +1,448 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* header part start */
+
+.nav-fixed {
+  background-attachment: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.logo-clr {
+  color: #5FCF80 !important;
+}
+
+.header-btn-clr {
+  background-color: #5FCF80;
+  border-color: #5FCF80;
+}
+
+.header-bt-hvr {
+  opacity: 0.8;
+}
+
+.header-bt-hvr:hover {
+  opacity: 1;
+  background-color: #5FCF80;
+  border-color: #5FCF80;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  /* color: var(--bs-navbar-brand-hover-color); */
+}
+
+
+
+.header-bg-img {
+  background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 130px 0px;
+  background-attachment: fixed;
+  top: 0;
+}
+
+.header-img-fs {
+  font-size: 54px;
+}
+
+.img-btn {
+  transition: 0.3s;
+}
+
+.img-btn:hover {
+  background-color: #5FCF80;
+  border-color: #5FCF80 !important;
+}
+
+
+
+.right-icon-color {
+  color: #5FCF80;
+}
+
+.img img {
+  max-width: 100%;
+}
+
+.paragraph ul li {
+  font-family: "Open Sans", sans-serif !important;
+  color: #444444;
+}
+
+/* header part end */
+
+/* counter part start */
+.counter-bg-color {
+  background-color: #F6F7F6;
+}
+
+.counter-font-size h1 {
+  font-size: 48px;
+}
+
+.count-clr {
+  color: #5FCF80 !important;
+}
+
+.counter-font-size span {
+  font-family: "Raleway", sans-serif;
+  color: #37423b;
+}
+
+/* counter part end */
+
+
+/* card part start */
+.card-bg-color {
+  background-color: #5FCF80;
+  padding: 0px 38px;
+}
+
+.card-btn {
+  background-color: #FFFFFF33;
+  transition: 0.4s;
+}
+
+.card-btn:hover {
+  background-color: #F6F7F6;
+  color: #5FCF80 !important;
+}
+
+.card-icon-bg-color {
+  background-color: #ECF9F0;
+  color: #5FCF80;
+}
+
+.card-part p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.card-part {
+  padding: 40px 42px !important;
+}
+
+/* card part end */
+
+
+/* compny part start */
+.compny h6 a {
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.icon-f {
+  color: #FFC54B;
+}
+
+.icon-s {
+  color: #5578FF;
+}
+
+.icon-t {
+  color: #E80368;
+}
+
+.icon-fr {
+  color: #EA86FF;
+}
+
+.icon-fith {
+  color: #47AEFF;
+}
+
+.icon-six {
+  color: #FFA76E;
+}
+
+.icon-sev {
+  color: #17DCD0;
+}
+
+.icon-eg {
+  color: #4233FF;
+}
+
+.icon-n {
+  color: #C0A46F;
+}
+
+.icon-t {
+  color: #B20969;
+}
+
+.icon-e {
+  color: #FF5828;
+}
+
+.icon-tw {
+  color: #29CC61;
+}
+
+.compny {
+  transition: 0.3s;
+}
+
+.compny:hover {
+  border-color: #5FCF80 !important;
+  color: #5FCF80;
+}
+
+.compny h6 a:hover {
+  color: #5FCF80 !important;
+}
+
+/* compny part end */
+
+
+/* img-card start */
+
+.section-title h6 {
+  position: relative;
+  color: #aaaaaa;
+}
+
+.section-title h6:after {
+  content: "";
+  background-color: #29CC61;
+  width: 130px;
+  height: 2px;
+  display: block;
+  top: 9px;
+  bottom: 0px;
+  left: 120px;
+  right: 0px;
+  position: absolute;
+}
+
+.img-card .web-d {
+  background-color: #29CC61;
+  color: white;
+  display: inline-block;
+}
+
+.img-card p {
+  text-align: justify;
+  color: #777777;
+}
+
+.profile-icon img {
+  max-width: 15%;
+}
+
+.profile-icon p {
+  margin-left: 15px;
+}
+
+.p-left {
+  margin-left: 15px;
+}
+
+.count {
+  margin-left: 8px;
+}
+
+.profile-title {
+  transition: 0.2s;
+}
+
+.profile-title:hover {
+  color: #29CC61 !important;
+}
+
+.f-f {
+  font-family: "Raleway", sans-serif;
+}
+
+.main-img-card span {
+  font-size: 13px;
+}
+
+.main-img-card .clr {
+  color: #aaaaaa;
+}
+
+.img-card-icon-clr a {
+  color: #7e9486 !important;
+  transition: 0.2s;
+}
+
+.img-card-icon-clr a:hover {
+  color: #29CC61 !important;
+}
+
+/* img-card end */
+
+
+/* footer part start */
+.footer-bg-color {
+  background-color: #F9FAF9;
+}
+
+.footer-contact p {
+  /* color: #777777; */
+}
+
+.useful-links ul li a {
+  transition: 0.2s;
+  /* color: #777777 !important; */
+}
+
+.useful-links ul li a:hover {
+  color: #29CC61 !important;
+}
+
+.footer-size {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.Newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #e0e5e2;
+
+}
+
+.Newsletter form input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 230px);
+  outline: none;
+}
+
+.Newsletter form #submit {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #5fcf80;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* footer part end */
+
+
+/* Event page css start */
+.overlap {
+  /* margin-top: -50px auto !important; */
+  z-index: 999;
+  position: relative;
+}
+
+/* course page css start */
+.course-bg-clr,
+.Event-bg-color {
+  background-color: #29CC61;
+}
+
+.course p,
+.event p {
+  font-size: 14px;
+}
+
+/* course page css end */
+
+
+/* Trainers page css start */
+
+/* Trainers page css end */
+
+
+.e-card-img {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+  top: 80px;
+  bottom: 0px;
+  left: 38px;
+}
+
+.width {
+  width: 85%;
+  margin: -50px auto !important;
+}
+
+.bg {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* padding: 15px 5px 200px 5px; */
+}
+
+.icons-contact .aft {
+  content: "";
+  background-color: #ECF9F0;
+  color: #29CC61;
+  width: 68px;
+  height: 64px;
+  padding: 18px;
+  border-radius: 61px;
+  transition: 0.4s;
+}
+
+.icons-contact .aft:hover {
+  background-color: #29CC61;
+  color: white;
+}
+
+.Location {
+  margin-left: 20px;
+}
+
+.Location p {
+  font-size: 14px;
+  color: #657a6d;
+}
+
+/* contact page css */
+
+#firstName,
+#email,
+#subject,
+#massage {
+  width: 100%;
+  height: 40px;
+}
+
+#firstName,
+#email {
+  margin-top: 10px;
+}
+
+#subject {
+  margin-top: 50px;
+}
+
+#massage {
+  margin-top: 50px;
+  height: 140px !important;
+}
